@@ -24,6 +24,7 @@ list_of_files = [
     f"src/{project_name}/constants/__init__.py",
     "config/config.yaml",
     "schema.yaml",
+    "params.yaml",
     "main.py",
     "Dockerfile",
     "setup.py",
