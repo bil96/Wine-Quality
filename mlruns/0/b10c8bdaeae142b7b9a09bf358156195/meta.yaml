@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/bilal/Documents/mlops/Wine-Quality/mlruns/0/b10c8bdaeae142b7b9a09bf358156195/artifacts
+end_time: 1747102935701
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: b10c8bdaeae142b7b9a09bf358156195
+run_name: rebellious-steed-210
+run_uuid: b10c8bdaeae142b7b9a09bf358156195
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747102930119
+status: 4
+tags: []
+user_id: bilal
