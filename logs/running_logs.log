@@ -413,3 +413,225 @@ x==========x]
 [2025-05-13 01:49:06,742: INFO:wine-quality:37: >>>>>> stage Data Transformation stage completed <<<<<<
 
 x==========x]
+[2025-05-13 02:22:16,281: INFO:wine-quality:27: YAML file config\config.yaml loaded successfully.]
+[2025-05-13 02:22:16,298: INFO:wine-quality:27: YAML file params.yaml loaded successfully.]
+[2025-05-13 02:22:16,298: INFO:wine-quality:27: YAML file schema.yaml loaded successfully.]
+[2025-05-13 02:22:16,303: INFO:wine-quality:48: Creating directory: artifacts]
+[2025-05-13 02:22:16,303: INFO:wine-quality:48: Creating directory: artifacts/model_trainer]
+[2025-05-13 02:22:16,305: INFO:root:6: Loading training data]
+[2025-05-13 02:23:32,954: INFO:wine-quality:27: YAML file config\config.yaml loaded successfully.]
+[2025-05-13 02:23:32,956: INFO:wine-quality:27: YAML file params.yaml loaded successfully.]
+[2025-05-13 02:23:32,959: INFO:wine-quality:27: YAML file schema.yaml loaded successfully.]
+[2025-05-13 02:23:32,960: INFO:wine-quality:48: Creating directory: artifacts]
+[2025-05-13 02:23:32,961: INFO:wine-quality:48: Creating directory: artifacts/model_trainer]
+[2025-05-13 02:23:32,962: INFO:root:6: Loading training data]
+[2025-05-13 02:26:11,709: INFO:wine-quality:27: YAML file config\config.yaml loaded successfully.]
+[2025-05-13 02:26:11,712: INFO:wine-quality:27: YAML file params.yaml loaded successfully.]
+[2025-05-13 02:26:11,715: INFO:wine-quality:27: YAML file schema.yaml loaded successfully.]
+[2025-05-13 02:26:11,716: INFO:wine-quality:48: Creating directory: artifacts]
+[2025-05-13 02:26:11,717: INFO:wine-quality:48: Creating directory: artifacts/model_trainer]
+[2025-05-13 02:26:11,718: INFO:root:6: Loading training data]
+[2025-05-13 02:27:26,024: INFO:wine-quality:27: YAML file config\config.yaml loaded successfully.]
+[2025-05-13 02:27:26,026: INFO:wine-quality:27: YAML file params.yaml loaded successfully.]
+[2025-05-13 02:27:26,029: INFO:wine-quality:27: YAML file schema.yaml loaded successfully.]
+[2025-05-13 02:27:26,030: INFO:wine-quality:48: Creating directory: artifacts]
+[2025-05-13 02:27:26,031: INFO:wine-quality:48: Creating directory: artifacts/model_trainer]
+[2025-05-13 02:27:26,031: INFO:root:6: Loading training data]
+[2025-05-13 02:28:17,538: INFO:wine-quality:27: YAML file config\config.yaml loaded successfully.]
+[2025-05-13 02:28:17,540: INFO:wine-quality:27: YAML file params.yaml loaded successfully.]
+[2025-05-13 02:28:17,543: INFO:wine-quality:27: YAML file schema.yaml loaded successfully.]
+[2025-05-13 02:28:17,544: INFO:wine-quality:48: Creating directory: artifacts]
+[2025-05-13 02:28:17,545: INFO:wine-quality:48: Creating directory: artifacts/model_trainer]
+[2025-05-13 02:28:17,545: INFO:root:6: Loading training data]
+[2025-05-13 02:35:40,345: INFO:wine-quality:7: Logging has been set up successfully.]
+[2025-05-13 02:35:40,345: INFO:wine-quality:13: >>>>>> stage Data Ingestion stage started <<<<<<<<<<<<<]
+[2025-05-13 02:35:40,345: INFO:wine-quality:27: YAML file config\config.yaml loaded successfully.]
+[2025-05-13 02:35:40,345: INFO:wine-quality:27: YAML file params.yaml loaded successfully.]
+[2025-05-13 02:35:40,350: INFO:wine-quality:27: YAML file schema.yaml loaded successfully.]
+[2025-05-13 02:35:40,350: INFO:wine-quality:48: Creating directory: artifacts]
+[2025-05-13 02:35:40,350: INFO:wine-quality:48: Creating directory: artifacts/data_ingestion]
+[2025-05-13 02:35:40,350: INFO:wine-quality:23: File already exists]
+[2025-05-13 02:35:40,357: INFO:wine-quality:16: >>>>>>>>>>>>>>> Data Ingestion stage completed <<<<<<<<<<<<]
+[2025-05-13 02:35:40,357: INFO:wine-quality:24: >>>>>> stage Data Validation stage started <<<<<<]
+[2025-05-13 02:35:40,360: INFO:wine-quality:27: YAML file config\config.yaml loaded successfully.]
+[2025-05-13 02:35:40,361: INFO:wine-quality:27: YAML file params.yaml loaded successfully.]
+[2025-05-13 02:35:40,363: INFO:wine-quality:27: YAML file schema.yaml loaded successfully.]
+[2025-05-13 02:35:40,364: INFO:wine-quality:48: Creating directory: artifacts]
+[2025-05-13 02:35:40,364: INFO:wine-quality:48: Creating directory: artifacts/data_validation]
+[2025-05-13 02:35:40,383: INFO:wine-quality:27: >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[2025-05-13 02:35:40,384: INFO:wine-quality:35: >>>>>> stage Data Transformation stage started <<)<<<<]
+[2025-05-13 02:35:40,387: INFO:wine-quality:27: YAML file config\config.yaml loaded successfully.]
+[2025-05-13 02:35:40,388: INFO:wine-quality:27: YAML file params.yaml loaded successfully.]
+[2025-05-13 02:35:40,390: INFO:wine-quality:27: YAML file schema.yaml loaded successfully.]
+[2025-05-13 02:35:40,390: INFO:wine-quality:48: Creating directory: artifacts]
+[2025-05-13 02:35:40,391: INFO:wine-quality:48: Creating directory: artifacts/model_trainer]
+[2025-05-13 02:35:40,391: ERROR:wine-quality:18: name 'model_trainer' is not defined]
+Traceback (most recent call last):
+  File "C:\Users\bilal\Documents\mlops\Wine-Quality\src\WineQuality\pipeline\model_trainer_pipeline.py", line 16, in initiate_model_trainer
+    model_trainer.train()
+NameError: name 'model_trainer' is not defined
+[2025-05-13 02:35:40,391: ERROR:wine-quality:40: name 'model_trainer' is not defined]
+Traceback (most recent call last):
+  File "C:\Users\bilal\Documents\mlops\Wine-Quality\main.py", line 37, in <module>
+    data_ingestion.initiate_model_trainer()
+  File "C:\Users\bilal\Documents\mlops\Wine-Quality\src\WineQuality\pipeline\model_trainer_pipeline.py", line 19, in initiate_model_trainer
+    raise e
+  File "C:\Users\bilal\Documents\mlops\Wine-Quality\src\WineQuality\pipeline\model_trainer_pipeline.py", line 16, in initiate_model_trainer
+    model_trainer.train()
+NameError: name 'model_trainer' is not defined
+[2025-05-13 02:36:11,119: INFO:wine-quality:7: Logging has been set up successfully.]
+[2025-05-13 02:36:11,119: INFO:wine-quality:13: >>>>>> stage Data Ingestion stage started <<<<<<<<<<<<<]
+[2025-05-13 02:36:11,119: INFO:wine-quality:27: YAML file config\config.yaml loaded successfully.]
+[2025-05-13 02:36:11,119: INFO:wine-quality:27: YAML file params.yaml loaded successfully.]
+[2025-05-13 02:36:11,119: INFO:wine-quality:27: YAML file schema.yaml loaded successfully.]
+[2025-05-13 02:36:11,119: INFO:wine-quality:48: Creating directory: artifacts]
+[2025-05-13 02:36:11,119: INFO:wine-quality:48: Creating directory: artifacts/data_ingestion]
+[2025-05-13 02:36:11,119: INFO:wine-quality:23: File already exists]
+[2025-05-13 02:36:11,137: INFO:wine-quality:16: >>>>>>>>>>>>>>> Data Ingestion stage completed <<<<<<<<<<<<]
+[2025-05-13 02:36:11,137: INFO:wine-quality:24: >>>>>> stage Data Validation stage started <<<<<<]
+[2025-05-13 02:36:11,141: INFO:wine-quality:27: YAML file config\config.yaml loaded successfully.]
+[2025-05-13 02:36:11,142: INFO:wine-quality:27: YAML file params.yaml loaded successfully.]
+[2025-05-13 02:36:11,142: INFO:wine-quality:27: YAML file schema.yaml loaded successfully.]
+[2025-05-13 02:36:11,142: INFO:wine-quality:48: Creating directory: artifacts]
+[2025-05-13 02:36:11,142: INFO:wine-quality:48: Creating directory: artifacts/data_validation]
+[2025-05-13 02:36:11,165: INFO:wine-quality:27: >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[2025-05-13 02:36:11,165: INFO:wine-quality:35: >>>>>> stage Data Transformation stage started <<)<<<<]
+[2025-05-13 02:36:11,167: INFO:wine-quality:27: YAML file config\config.yaml loaded successfully.]
+[2025-05-13 02:36:11,167: INFO:wine-quality:27: YAML file params.yaml loaded successfully.]
+[2025-05-13 02:36:11,167: INFO:wine-quality:27: YAML file schema.yaml loaded successfully.]
+[2025-05-13 02:36:11,167: INFO:wine-quality:48: Creating directory: artifacts]
+[2025-05-13 02:36:11,167: INFO:wine-quality:48: Creating directory: artifacts/model_trainer]
+[2025-05-13 02:36:11,167: ERROR:wine-quality:18: 'ModelTrainer' object has no attribute 'ModelTrainer']
+Traceback (most recent call last):
+  File "C:\Users\bilal\Documents\mlops\Wine-Quality\src\WineQuality\pipeline\model_trainer_pipeline.py", line 16, in initiate_model_trainer
+    model_trainer_config.ModelTrainer()
+AttributeError: 'ModelTrainer' object has no attribute 'ModelTrainer'
+[2025-05-13 02:36:11,172: ERROR:wine-quality:40: 'ModelTrainer' object has no attribute 'ModelTrainer']
+Traceback (most recent call last):
+  File "C:\Users\bilal\Documents\mlops\Wine-Quality\main.py", line 37, in <module>
+    data_ingestion.initiate_model_trainer()
+  File "C:\Users\bilal\Documents\mlops\Wine-Quality\src\WineQuality\pipeline\model_trainer_pipeline.py", line 19, in initiate_model_trainer
+    raise e
+  File "C:\Users\bilal\Documents\mlops\Wine-Quality\src\WineQuality\pipeline\model_trainer_pipeline.py", line 16, in initiate_model_trainer
+    model_trainer_config.ModelTrainer()
+AttributeError: 'ModelTrainer' object has no attribute 'ModelTrainer'
+[2025-05-13 02:37:47,466: INFO:wine-quality:7: Logging has been set up successfully.]
+[2025-05-13 02:37:47,466: INFO:wine-quality:13: >>>>>> stage Data Ingestion stage started <<<<<<<<<<<<<]
+[2025-05-13 02:37:47,466: INFO:wine-quality:27: YAML file config\config.yaml loaded successfully.]
+[2025-05-13 02:37:47,466: INFO:wine-quality:27: YAML file params.yaml loaded successfully.]
+[2025-05-13 02:37:47,471: INFO:wine-quality:27: YAML file schema.yaml loaded successfully.]
+[2025-05-13 02:37:47,472: INFO:wine-quality:48: Creating directory: artifacts]
+[2025-05-13 02:37:47,472: INFO:wine-quality:48: Creating directory: artifacts/data_ingestion]
+[2025-05-13 02:37:47,472: INFO:wine-quality:23: File already exists]
+[2025-05-13 02:37:47,475: INFO:wine-quality:16: >>>>>>>>>>>>>>> Data Ingestion stage completed <<<<<<<<<<<<]
+[2025-05-13 02:37:47,476: INFO:wine-quality:24: >>>>>> stage Data Validation stage started <<<<<<]
+[2025-05-13 02:37:47,478: INFO:wine-quality:27: YAML file config\config.yaml loaded successfully.]
+[2025-05-13 02:37:47,479: INFO:wine-quality:27: YAML file params.yaml loaded successfully.]
+[2025-05-13 02:37:47,480: INFO:wine-quality:27: YAML file schema.yaml loaded successfully.]
+[2025-05-13 02:37:47,481: INFO:wine-quality:48: Creating directory: artifacts]
+[2025-05-13 02:37:47,482: INFO:wine-quality:48: Creating directory: artifacts/data_validation]
+[2025-05-13 02:37:47,497: INFO:wine-quality:27: >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[2025-05-13 02:37:47,497: INFO:wine-quality:35: >>>>>> stage Data Transformation stage started <<)<<<<]
+[2025-05-13 02:37:47,503: INFO:wine-quality:27: YAML file config\config.yaml loaded successfully.]
+[2025-05-13 02:37:47,504: INFO:wine-quality:27: YAML file params.yaml loaded successfully.]
+[2025-05-13 02:37:47,505: INFO:wine-quality:27: YAML file schema.yaml loaded successfully.]
+[2025-05-13 02:37:47,506: INFO:wine-quality:48: Creating directory: artifacts]
+[2025-05-13 02:37:47,506: INFO:wine-quality:48: Creating directory: artifacts/model_trainer]
+[2025-05-13 02:37:47,516: INFO:wine-quality:38: >>>>>> stage Data Transformation stage completed <<<<<<
+
+x==========x]
+[2025-05-13 02:37:47,516: INFO:wine-quality:46: >>>>>> stage Model Trainer stage started <<<<<<]
+[2025-05-13 02:37:47,516: ERROR:wine-quality:51: name 'Model' is not defined]
+Traceback (most recent call last):
+  File "C:\Users\bilal\Documents\mlops\Wine-Quality\main.py", line 47, in <module>
+    data_ingestion = Model()
+NameError: name 'Model' is not defined
+[2025-05-13 02:38:41,769: INFO:wine-quality:7: Logging has been set up successfully.]
+[2025-05-13 02:38:41,769: INFO:wine-quality:13: >>>>>> stage Data Ingestion stage started <<<<<<<<<<<<<]
+[2025-05-13 02:38:41,769: INFO:wine-quality:27: YAML file config\config.yaml loaded successfully.]
+[2025-05-13 02:38:41,769: INFO:wine-quality:27: YAML file params.yaml loaded successfully.]
+[2025-05-13 02:38:41,769: INFO:wine-quality:27: YAML file schema.yaml loaded successfully.]
+[2025-05-13 02:38:41,769: INFO:wine-quality:48: Creating directory: artifacts]
+[2025-05-13 02:38:41,769: INFO:wine-quality:48: Creating directory: artifacts/data_ingestion]
+[2025-05-13 02:38:41,769: INFO:wine-quality:23: File already exists]
+[2025-05-13 02:38:41,779: INFO:wine-quality:16: >>>>>>>>>>>>>>> Data Ingestion stage completed <<<<<<<<<<<<]
+[2025-05-13 02:38:41,779: INFO:wine-quality:24: >>>>>> stage Data Validation stage started <<<<<<]
+[2025-05-13 02:38:41,783: INFO:wine-quality:27: YAML file config\config.yaml loaded successfully.]
+[2025-05-13 02:38:41,783: INFO:wine-quality:27: YAML file params.yaml loaded successfully.]
+[2025-05-13 02:38:41,786: INFO:wine-quality:27: YAML file schema.yaml loaded successfully.]
+[2025-05-13 02:38:41,787: INFO:wine-quality:48: Creating directory: artifacts]
+[2025-05-13 02:38:41,787: INFO:wine-quality:48: Creating directory: artifacts/data_validation]
+[2025-05-13 02:38:41,805: INFO:wine-quality:27: >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[2025-05-13 02:38:41,806: INFO:wine-quality:35: >>>>>> stage Data Transformation stage started <<)<<<<]
+[2025-05-13 02:38:41,806: ERROR:wine-quality:40: 'DataTransformationTrainingPipeline' object has no attribute 'initiate_model_trainer']
+Traceback (most recent call last):
+  File "C:\Users\bilal\Documents\mlops\Wine-Quality\main.py", line 37, in <module>
+    data_ingestion.initiate_model_trainer()
+AttributeError: 'DataTransformationTrainingPipeline' object has no attribute 'initiate_model_trainer'
+[2025-05-13 02:39:10,128: INFO:wine-quality:7: Logging has been set up successfully.]
+[2025-05-13 02:39:10,128: INFO:wine-quality:13: >>>>>> stage Data Ingestion stage started <<<<<<<<<<<<<]
+[2025-05-13 02:39:10,131: INFO:wine-quality:27: YAML file config\config.yaml loaded successfully.]
+[2025-05-13 02:39:10,132: INFO:wine-quality:27: YAML file params.yaml loaded successfully.]
+[2025-05-13 02:39:10,134: INFO:wine-quality:27: YAML file schema.yaml loaded successfully.]
+[2025-05-13 02:39:10,134: INFO:wine-quality:48: Creating directory: artifacts]
+[2025-05-13 02:39:10,135: INFO:wine-quality:48: Creating directory: artifacts/data_ingestion]
+[2025-05-13 02:39:10,135: INFO:wine-quality:23: File already exists]
+[2025-05-13 02:39:10,138: INFO:wine-quality:16: >>>>>>>>>>>>>>> Data Ingestion stage completed <<<<<<<<<<<<]
+[2025-05-13 02:39:10,139: INFO:wine-quality:24: >>>>>> stage Data Validation stage started <<<<<<]
+[2025-05-13 02:39:10,141: INFO:wine-quality:27: YAML file config\config.yaml loaded successfully.]
+[2025-05-13 02:39:10,141: INFO:wine-quality:27: YAML file params.yaml loaded successfully.]
+[2025-05-13 02:39:10,144: INFO:wine-quality:27: YAML file schema.yaml loaded successfully.]
+[2025-05-13 02:39:10,145: INFO:wine-quality:48: Creating directory: artifacts]
+[2025-05-13 02:39:10,145: INFO:wine-quality:48: Creating directory: artifacts/data_validation]
+[2025-05-13 02:39:10,166: INFO:wine-quality:27: >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[2025-05-13 02:39:10,167: INFO:wine-quality:35: >>>>>> stage Data Transformation stage started <<)<<<<]
+[2025-05-13 02:39:10,167: INFO:wine-quality:38: >>>>>> stage Data Transformation stage completed <<<<<<
+
+x==========x]
+[2025-05-13 02:39:10,167: INFO:wine-quality:46: >>>>>> stage Model Trainer stage started <<<<<<]
+[2025-05-13 02:39:10,167: ERROR:wine-quality:51: 'ModelTrainerTrainingPipeline' object has no attribute 'initiate_data_injestion']
+Traceback (most recent call last):
+  File "C:\Users\bilal\Documents\mlops\Wine-Quality\main.py", line 48, in <module>
+    data_ingestion.initiate_data_injestion()
+AttributeError: 'ModelTrainerTrainingPipeline' object has no attribute 'initiate_data_injestion'
+[2025-05-13 02:39:26,432: INFO:wine-quality:7: Logging has been set up successfully.]
+[2025-05-13 02:39:26,432: INFO:wine-quality:13: >>>>>> stage Data Ingestion stage started <<<<<<<<<<<<<]
+[2025-05-13 02:39:26,432: INFO:wine-quality:27: YAML file config\config.yaml loaded successfully.]
+[2025-05-13 02:39:26,432: INFO:wine-quality:27: YAML file params.yaml loaded successfully.]
+[2025-05-13 02:39:26,432: INFO:wine-quality:27: YAML file schema.yaml loaded successfully.]
+[2025-05-13 02:39:26,432: INFO:wine-quality:48: Creating directory: artifacts]
+[2025-05-13 02:39:26,432: INFO:wine-quality:48: Creating directory: artifacts/data_ingestion]
+[2025-05-13 02:39:26,432: INFO:wine-quality:23: File already exists]
+[2025-05-13 02:39:26,449: INFO:wine-quality:16: >>>>>>>>>>>>>>> Data Ingestion stage completed <<<<<<<<<<<<]
+[2025-05-13 02:39:26,450: INFO:wine-quality:24: >>>>>> stage Data Validation stage started <<<<<<]
+[2025-05-13 02:39:26,452: INFO:wine-quality:27: YAML file config\config.yaml loaded successfully.]
+[2025-05-13 02:39:26,453: INFO:wine-quality:27: YAML file params.yaml loaded successfully.]
+[2025-05-13 02:39:26,455: INFO:wine-quality:27: YAML file schema.yaml loaded successfully.]
+[2025-05-13 02:39:26,456: INFO:wine-quality:48: Creating directory: artifacts]
+[2025-05-13 02:39:26,456: INFO:wine-quality:48: Creating directory: artifacts/data_validation]
+[2025-05-13 02:39:26,471: INFO:wine-quality:27: >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[2025-05-13 02:39:26,471: INFO:wine-quality:35: >>>>>> stage Data Transformation stage started <<)<<<<]
+[2025-05-13 02:39:26,471: INFO:wine-quality:38: >>>>>> stage Data Transformation stage completed <<<<<<
+
+x==========x]
+[2025-05-13 02:39:26,471: INFO:wine-quality:46: >>>>>> stage Model Trainer stage started <<<<<<]
+[2025-05-13 02:39:26,475: INFO:wine-quality:27: YAML file config\config.yaml loaded successfully.]
+[2025-05-13 02:39:26,476: INFO:wine-quality:27: YAML file params.yaml loaded successfully.]
+[2025-05-13 02:39:26,478: INFO:wine-quality:27: YAML file schema.yaml loaded successfully.]
+[2025-05-13 02:39:26,479: INFO:wine-quality:48: Creating directory: artifacts]
+[2025-05-13 02:39:26,479: INFO:wine-quality:48: Creating directory: artifacts/model_trainer]
+[2025-05-13 02:39:26,495: INFO:wine-quality:49: >>>>>> stage Model Trainer stage completed <<<<<<
+
+x==========x]
